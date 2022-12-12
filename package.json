@@ -1,0 +1,21 @@
+{
+  "name": "@lirx/rxjs-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between RxJS and @lirx/core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lirx-js/rxjs-bridge"
+  },
+  "keywords": [
+    "reactive programming"
+  ],
+  "author": "Valentin Richard",
+  "license": "MIT",
+  "access": "public",
+  "dependencies": {
+    "@lirx/core": "1.2.0-beta.1"
+  },
+  "peerDependencies": {
+    "rxjs": "^7.6.0"
+  }
+}
