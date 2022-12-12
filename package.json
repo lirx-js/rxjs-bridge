@@ -7,15 +7,23 @@
     "url": "https://github.com/lirx-js/rxjs-bridge"
   },
   "keywords": [
-    "reactive programming"
+    "reactive programming",
+    "rxjs",
+    "lirx/core"
   ],
   "author": "Valentin Richard",
   "license": "MIT",
   "access": "public",
+  "scripts": {
+    "prepare": "install-peers"
+  },
   "dependencies": {
-    "@lirx/core": "1.2.0-beta.1"
+    "@lirx/core": "^1.1.0"
   },
   "peerDependencies": {
-    "rxjs": "^7.6.0"
+    "rxjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "install-peers-cli": "^2.2.0"
   }
 }
